@@ -1,0 +1,2 @@
+# Litestar Template
+A working version of a super lightweight API... not sure if I prefer to DRF since there are enough things that come up where it gets annoying to build from scratch and plugins aren't as clear as in django tbh.

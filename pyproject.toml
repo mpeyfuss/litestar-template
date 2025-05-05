@@ -1,0 +1,17 @@
+[project]
+name = "litestar-template"
+version = "0.1.0"
+description = "Starter template for an API built with Litestar, Piccolo ORM"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "litestar[msgspec,standard]>=2.16.0",
+    "piccolo-admin>=1.9.1",
+    "piccolo[all]>=1.25.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.5",
+    "ruff>=0.11.8",
+]
